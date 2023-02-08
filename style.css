@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  background: silver;
+  margin: 5px 0;
+}
+
+header {
+  background: silver;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  width: 500px;
+  overflow: auto;
+  padding: 3rem 2rem;
+}
+
+#my-form {
+  padding: 2rem;
+  background: silver;
+}
+
+#my-form label {
+  display: block;
+}
+
+#my-form input[type='text'] {
+  width: 100%;
+  border: silver;
+}
+
+#my-form input[type='number'] {
+  width: 100%;
+  border: silver;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  background: black;
+  color: white;
+}
+
+.error {
+  background: red;
+  color: white;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Car Dealership</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Car Form</h1>
+    </header>
+
+    <section class="container">
+      <form id="my-form">
+        <h1>Add Car</h1>
+        <div class="msg"></div>
+        <div>
+          <label for="manufacturer">Manufacturer:</label>
+          <input type="text" id="manufacturer">
+        </div>
+        <div>
+          <label for="model">Model:</label>
+          <input type="text" id="model">
+        </div>
+        <div>
+          <label for="year">Year of production:</label>
+          <input type="number" id="year">
+        </div>
+        <input class="btn" type="submit" value="Submit">
+      </form>
+
+      <ul id="cars"></ul>
+
+      <!-- <ul class="items">
+        <li class="item">Item 1</li>
+        <li class="item">Item 2</li>
+        <li class="item">Item 3</li>
+      </ul> -->
+
+      <div id="grid-container" class="grid-container">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
